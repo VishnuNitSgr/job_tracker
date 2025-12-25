@@ -1,0 +1,119 @@
+.dashboard-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.logout-btn {
+  background-color: #f56565;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #e53e3e;
+}
+
+.dashboard-stats {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.dashboard-stats span {
+  background-color: #edf2f7;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #2d3748;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.job-filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.job-filter input, .job-filter select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e0;
+  outline: none;
+  transition: 0.3s;
+}
+
+.job-filter input:focus, .job-filter select:focus {
+  border-color: #4299e1;
+  box-shadow: 0 0 5px rgba(66,153,225,0.5);
+}
+
+.job-filter button {
+  background-color: #4299e1;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.job-filter button:hover {
+  background-color: #3182ce;
+}
+
+.job-list {
+  list-style: none;
+  padding: 0;
+}
+
+.job-list li {
+  background-color: #f7fafc;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.job-list li:hover {
+  background-color: #e2e8f0;
+}
+
+.job-list button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.job-list button:hover {
+  opacity: 0.8;
+}
+
+.job-list .favorite {
+  font-weight: bold;
+  color: #d69e2e;
+}
