@@ -1,16 +1,75 @@
-# React + Vite
+# 🚀 Job Tracker Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack **Job Tracker Platform** built with **React, Node.js, Express, and MongoDB** to help users manage and track job applications efficiently.
 
-Currently, two official plugins are available:
+> ✨ Made with ❤️ by Vishnu Tripathi for job seekers.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌟 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔐 JWT Authentication (Login / Logout)
+- ➕ Add Job Applications
+- ✏️ Edit Job Details
+- 🗑️ Delete Jobs
+- 🔍 Search Jobs by Company Name
+- 🎯 Filter Jobs by Status (Applied / Interview / Rejected / Offer)
+- ⭐ Mark Jobs as Favorite
+- 📊 Dashboard Stats (Applied, Interview, Rejected, Offer)
+- 👤 User-specific job data
+- 📱 Responsive & Clean UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ Screenshots
+
+### 📊 Dashboard & Job Stats
+![Dashboard Screenshot](./assets/1.png)
+![Dashboard Screenshot](./assets/2.png)
+![Dashboard Screenshot](./assets/3.png)
+![Dashboard Screenshot](./assets/4.png)
+
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- React Router
+- Axios
+- CSS (Custom UI)
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB & Mongoose
+- JWT Authentication
+
+---
+
+## 📂 Project Structure
+
+job-tracker/
+│
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ │ └── JobForm.jsx
+│ │ ├── pages/
+│ │ │ └── Dashboard.jsx
+│ │ ├── services/
+│ │ │ └── api.js
+│ │ ├── css/
+│ │ │ ├── Dashboard.css
+│ │ │ └── JobForm.css
+│ │ └── App.js
+│
+├── backend/
+│ ├── routes/
+│ │ └── jobRoutes.js
+│ ├── models/
+│ │ └── Job.js
+│ ├── middleware/
+│ │ └── authMiddleware.js
+│ ├── server.js
