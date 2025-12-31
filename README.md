@@ -48,28 +48,3 @@ A full-stack **Job Tracker Platform** built with **React, Node.js, Express, and 
 
 ---
 
-## 📂 Project Structure
-
-job-tracker/
-│
-├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ │ └── JobForm.jsx
-│ │ ├── pages/
-│ │ │ └── Dashboard.jsx
-│ │ ├── services/
-│ │ │ └── api.js
-│ │ ├── css/
-│ │ │ ├── Dashboard.css
-│ │ │ └── JobForm.css
-│ │ └── App.js
-│
-├── backend/
-│ ├── routes/
-│ │ └── jobRoutes.js
-│ ├── models/
-│ │ └── Job.js
-│ ├── middleware/
-│ │ └── authMiddleware.js
-│ ├── server.js
